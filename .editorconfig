@@ -1,0 +1,16 @@
+# Configurações gerais
+root = true
+
+# Configurações padrão para todos os arquivos
+[*]
+charset = utf-8
+max_line_length = 80
+end_of_line = lf
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Configurações específicas para arquivos com extensão .md
+[*.md]
+trim_trailing_whitespace = false
