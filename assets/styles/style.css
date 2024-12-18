@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #FE8EB7;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.dancing-font {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.heart-cord {
+  position: fixed;
+  z-index: 4;
+  top: -50px;
+  margin-left: -50px;
+  transform: rotate(-15deg);
+}
+
+.container-header {
+  width: 100%;
+  margin-top: 80px;
+  z-index: 2;
+}
+
+.photo-1 {
+  width: 260px;
+  height: auto;
+  transform: rotate(20deg);
+}
+
+.ballon_div {
+  width: 120px;
+  background-color: #fff;
+  padding: 30px 8px;
+  border-radius: 100%;
+  position: absolute;
+  right: 80px;
+  margin-top: -85px;
+  z-index: 3;
+}
+
+.ballon_text {
+  font-size: 35px;
+  color: #DB4565;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container_p2 {
+  width: 100%;
+  display: flex;
+  z-index: -2;
+  position: relative;
+  justify-content: end;
+  margin-top: -10px;
+}
+
+.photo-2 {
+  width: 260px;
+  height: auto;
+  transform: rotate(-20deg);
+  z-index: -1;
+}
+
+.message {
+  margin: 10px;
+  padding: 14px 18px;
+  background-color: rgba(219, 69, 101, 0.4);
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.message p {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Dancing Script", serif;
+  color: #fff;
+  text-align: justify;
+  margin-bottom: 18px;
+}
